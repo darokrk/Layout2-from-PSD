@@ -1,9 +1,21 @@
+body { font-family: 'Lato', sans-serif; }
+
 .jumbotron-fluid { background: url("../images/header.jpg") no-repeat center; background-size: cover; height: 100vh; position: relative; }
 
-.main-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: 'Lato', sans-serif; }
+.main-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 
 .header { letter-spacing: 0.2em; margin-bottom: 1rem; }
 
 .ellipse { margin-bottom: 4.0em; }
 
 .roller { position: absolute; bottom: 5%; left: 49%; }
+
+.size { height: 632px; padding: 140px 40px; }
+
+.size > fieldset { border: 2px solid #3c3c3c; }
+
+fieldset > legend { width: 40%; }
+
+.contain { font-size: 1rem; padding: 15px 15px; }
+
+.contain-grey { color: #3c3c3c; }
