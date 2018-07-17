@@ -1,0 +1,25 @@
+.jumbotron-fluid {
+    background: url('../images/header.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lato', sans-serif;
+}
+.header {
+    letter-spacing: 0.2em;
+    margin-bottom: 1rem;
+}
+.ellipse {
+    margin-bottom: 4.0em;
+}
+.roller {
+    position: absolute;
+    bottom: 5%;
+    left: 49%;
+}
