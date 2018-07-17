@@ -27,11 +27,13 @@ body {
     left: 49%;
 }
 .size {
-    height: 632px;
     padding: 140px 40px;
 }
-.size > fieldset {
+.border-black {
     border: 2px solid #3c3c3c;
+}
+.border-white {
+    border: 2px solid #fff;
 }
 fieldset > legend {
     width: 40%;
@@ -42,4 +44,12 @@ fieldset > legend {
 }
 .contain-grey {
     color: #3c3c3c;
+}
+#services {
+    background: url('../images/service.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 448px;
+}
+.contain-white {
+    color: #fff;
 }

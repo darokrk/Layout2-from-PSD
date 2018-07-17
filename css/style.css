@@ -10,12 +10,18 @@ body { font-family: 'Lato', sans-serif; }
 
 .roller { position: absolute; bottom: 5%; left: 49%; }
 
-.size { height: 632px; padding: 140px 40px; }
+.size { padding: 140px 40px; }
 
-.size > fieldset { border: 2px solid #3c3c3c; }
+.border-black { border: 2px solid #3c3c3c; }
+
+.border-white { border: 2px solid #fff; }
 
 fieldset > legend { width: 40%; }
 
 .contain { font-size: 1rem; padding: 15px 15px; }
 
 .contain-grey { color: #3c3c3c; }
+
+#services { background: url("../images/service.jpg") no-repeat center; background-size: cover; min-height: 448px; }
+
+.contain-white { color: #fff; }
