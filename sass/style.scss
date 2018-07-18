@@ -8,13 +8,13 @@ body {
     height: 100vh;
     position: relative;
 }
-.main-text {
+.main__slogan {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.header {
+.main__header {
     letter-spacing: 0.2em;
     margin-bottom: 1rem;
 }
@@ -26,14 +26,8 @@ body {
     bottom: 5%;
     left: 49%;
 }
-.size {
-    padding: 140px 40px;
-}
-.border-black {
-    border: 2px solid #3c3c3c;
-}
-.border-white {
-    border: 2px solid #fff;
+.content--padding {
+    padding: 5rem 1rem;
 }
 fieldset > legend {
     width: 40%;
@@ -42,14 +36,8 @@ fieldset > legend {
     font-size: 1rem;
     padding: 15px 15px;
 }
-.contain-grey {
-    color: #3c3c3c;
-}
 #services {
     background: url('../images/service.jpg') no-repeat center;
     background-size: cover;
     min-height: 448px;
-}
-.contain-white {
-    color: #fff;
 }

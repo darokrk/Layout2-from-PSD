@@ -7,14 +7,14 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Bootstrap layout</title>
 </head>
 <body id="bootstrap-overrides">
     <section id="main">
         <div class="jumbotron-fluid">
-            <div class="main-text text-center text-white">
+            <div class="main__slogan text-center text-white">
                 <img class="img-fluid ellipse" src="images/ellipse.png" alt="elippse-logo">
-                <h1 class="header font-weight-bold">
+                <h1 class="main__header font-weight-bold">
                     WORKING<br>
                     WITH DESIGN LAB
                 </h1>
@@ -29,34 +29,37 @@
     </section>
     <section id="about">
         <div class="container text-center">
-            <div class="size">
-                <fieldset class="border-black">
-                    <legend>
-                        <h2 class="header contain-grey font-weight-bold">ABOUT US</h2>
-                    </legend>
-                    <p class="font-weight-light contain contain-grey">
-                        When you work with us, you are part of a team committed collaborators.<br>
-                        All aspects of our software development process are integrated,iterative and agile.
-                    </p>
-                    <p class="font-weight-light contain contain-grey">
-                        Our approach uniffies design,development and<br>
-                        product management to create exceptional products.<br>
-                        We start each project by uderstanding your buisness goals,<br>
-                        the user's needs and the product requirements.<br>
-                        Then we help translate them into effective and elegant solutions.
-                    </p>
-                </fieldset>
+            <div class="row justify-content-md-center">
+                <div class="col-md-11 my-5 content--padding">
+                    <fieldset class="border border-dark">
+                        <legend>
+                            <h2 class="text-dark font-weight-bold">ABOUT US</h2>
+                        </legend>
+                        <p class="font-weight-light px-3 text-dark">
+                            When you work with us, you are part of a team committed collaborators.<br>
+                            All aspects of our software development process are integrated,iterative and agile.
+                        </p>
+                        <p class="font-weight-light px-3 text-dark">
+                            Our approach uniffies design,development and<br>
+                            product management to create exceptional products.<br>
+                            We start each project by uderstanding your buisness goals,<br>
+                            the user's needs and the product requirements.<br>
+                            Then we help translate them into effective and elegant solutions.
+                        </p>
+                    </fieldset>
+                </div>
             </div>
         </div>
     </section>
     <section id="services">
         <div class="container text-center">
-            <div class="size contain-white">
-                    <fieldset class="border-white">
+            <div class="row justify-content-md-center">
+                <div class="col-md-11 my-5 content--padding">
+                    <fieldset class="border border-white">
                         <legend>
-                            <h2 class="header font-weight-bold">SERVICES</h2>
+                            <h2 class="text-light font-weight-bold">SERVICES</h2>
                         </legend>
-                        <p class="font-weight-light contain contain-white">
+                        <p class="font-weight-light px-3 text-light">
                             Before we sign a contract or write a line of code our team will spend the necessary<br>
                             time needed to understand your product vision.<br>
                             The outcome of this scoping session is a proposal or high-level statement of work.<br>
@@ -64,6 +67,7 @@
                             you need.
                         </p>
                     </fieldset>
+                </div>
             </div>
         </div>
     </section>

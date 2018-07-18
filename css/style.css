@@ -2,26 +2,18 @@ body { font-family: 'Lato', sans-serif; }
 
 .jumbotron-fluid { background: url("../images/header.jpg") no-repeat center; background-size: cover; height: 100vh; position: relative; }
 
-.main-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.main__slogan { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 
-.header { letter-spacing: 0.2em; margin-bottom: 1rem; }
+.main__header { letter-spacing: 0.2em; margin-bottom: 1rem; }
 
 .ellipse { margin-bottom: 4.0em; }
 
 .roller { position: absolute; bottom: 5%; left: 49%; }
 
-.size { padding: 140px 40px; }
-
-.border-black { border: 2px solid #3c3c3c; }
-
-.border-white { border: 2px solid #fff; }
+.content--padding { padding: 5rem 1rem; }
 
 fieldset > legend { width: 40%; }
 
 .contain { font-size: 1rem; padding: 15px 15px; }
 
-.contain-grey { color: #3c3c3c; }
-
 #services { background: url("../images/service.jpg") no-repeat center; background-size: cover; min-height: 448px; }
-
-.contain-white { color: #fff; }
