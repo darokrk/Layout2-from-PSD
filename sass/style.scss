@@ -1,5 +1,4 @@
-
-body {
+#bootstrap-overrides {
     font-family: 'Lato', sans-serif;
 }
 .jumbotron-fluid {
@@ -32,9 +31,8 @@ body {
 fieldset > legend {
     width: 40%;
 }
-.contain {
-    font-size: 1rem;
-    padding: 15px 15px;
+.header--spacing {
+    letter-spacing: 0.2rem;
 }
 #services {
     background: url('../images/service.jpg') no-repeat center;
