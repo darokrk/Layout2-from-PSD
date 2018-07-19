@@ -1,5 +1,10 @@
 #bootstrap-overrides {
     font-family: 'Lato', sans-serif;
+    .header--position {
+        position: absolute;
+        left: 5%;
+        bottom: 15%;
+    }
 }
 .jumbotron-fluid {
     background: url('../images/header.jpg') no-repeat center;
@@ -38,4 +43,39 @@ fieldset > legend {
     background: url('../images/service.jpg') no-repeat center;
     background-size: cover;
     min-height: 448px;
+}
+.gallery__first {
+    background: url('../images/gallery-1.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 240px;
+}
+.gallery__second {
+    background: url('../images/gallery-2.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 240px;
+}
+.gallery__third {
+    background: url('../images/gallery-3.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 240px;
+}
+.gallery__fourth {
+    background: url('../images/gallery-4.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 240px;
+}
+.gallery__fifth {
+    background: url('../images/gallery-5.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 240px;
+}
+.gallery__sixth {
+    background: url('../images/gallery-6.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 240px;
+}
+.gallery__row {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: relative;
 }
