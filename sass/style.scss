@@ -47,35 +47,32 @@ fieldset > legend {
     background-size: cover;
     min-height: 448px;
 }
+.gallery__item {
+    min-height: 240px;
+}
 .gallery__first {
     background: url('../images/gallery-1.jpg') no-repeat center;
     background-size: cover;
-    min-height: 240px;
 }
 .gallery__second {
     background: url('../images/gallery-2.jpg') no-repeat center;
     background-size: cover;
-    min-height: 240px;
 }
 .gallery__third {
     background: url('../images/gallery-3.jpg') no-repeat center;
     background-size: cover;
-    min-height: 240px;
 }
 .gallery__fourth {
     background: url('../images/gallery-4.jpg') no-repeat center;
     background-size: cover;
-    min-height: 240px;
 }
 .gallery__fifth {
     background: url('../images/gallery-5.jpg') no-repeat center;
     background-size: cover;
-    min-height: 240px;
 }
 .gallery__sixth {
     background: url('../images/gallery-6.jpg') no-repeat center;
     background-size: cover;
-    min-height: 240px;
 }
 .gallery__row {
     flex-wrap: nowrap;
@@ -89,7 +86,7 @@ fieldset > legend {
 @media (max-width: 576px) {
     #bootstrap-overrides {
         .border {
-            display: contents;
+            border: hidden!important;
         }
         .gallery__row {
             flex-wrap: wrap;
@@ -101,7 +98,7 @@ fieldset > legend {
             text-align: center!important;
         }
         fieldset > legend {
-            width: unset;
+            margin: auto;
         }
     }
 }

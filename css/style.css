@@ -22,24 +22,26 @@ fieldset > legend { width: auto; }
 
 #services { background: url("../images/service.jpg") no-repeat center; background-size: cover; min-height: 448px; }
 
-.gallery__first { background: url("../images/gallery-1.jpg") no-repeat center; background-size: cover; min-height: 240px; }
+.gallery__item { min-height: 240px; }
 
-.gallery__second { background: url("../images/gallery-2.jpg") no-repeat center; background-size: cover; min-height: 240px; }
+.gallery__first { background: url("../images/gallery-1.jpg") no-repeat center; background-size: cover; }
 
-.gallery__third { background: url("../images/gallery-3.jpg") no-repeat center; background-size: cover; min-height: 240px; }
+.gallery__second { background: url("../images/gallery-2.jpg") no-repeat center; background-size: cover; }
 
-.gallery__fourth { background: url("../images/gallery-4.jpg") no-repeat center; background-size: cover; min-height: 240px; }
+.gallery__third { background: url("../images/gallery-3.jpg") no-repeat center; background-size: cover; }
 
-.gallery__fifth { background: url("../images/gallery-5.jpg") no-repeat center; background-size: cover; min-height: 240px; }
+.gallery__fourth { background: url("../images/gallery-4.jpg") no-repeat center; background-size: cover; }
 
-.gallery__sixth { background: url("../images/gallery-6.jpg") no-repeat center; background-size: cover; min-height: 240px; }
+.gallery__fifth { background: url("../images/gallery-5.jpg") no-repeat center; background-size: cover; }
+
+.gallery__sixth { background: url("../images/gallery-6.jpg") no-repeat center; background-size: cover; }
 
 .gallery__row { -ms-flex-wrap: nowrap; flex-wrap: nowrap; overflow: hidden; position: relative; }
 
 .footer__ellipse { bottom: 45%; left: 30%; }
 
-@media (max-width: 576px) { #bootstrap-overrides .border { display: contents; }
+@media (max-width: 576px) { #bootstrap-overrides .border { border: hidden !important; }
   #bootstrap-overrides .gallery__row { -ms-flex-wrap: wrap; flex-wrap: wrap; }
   #bootstrap-overrides .main--roller { display: none; }
   #bootstrap-overrides .footer__text { text-align: center !important; }
-  #bootstrap-overrides fieldset > legend { width: unset; } }
+  #bootstrap-overrides fieldset > legend { margin: auto; } }
