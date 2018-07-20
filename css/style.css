@@ -14,7 +14,7 @@
 
 .content--padding { padding: 5rem 1rem; }
 
-fieldset > legend { width: 40%; }
+fieldset > legend { width: auto; }
 
 .header--spacing { letter-spacing: 0.2rem; }
 
@@ -37,3 +37,8 @@ fieldset > legend { width: 40%; }
 .gallery__row { -ms-flex-wrap: nowrap; flex-wrap: nowrap; overflow: hidden; position: relative; }
 
 .footer__ellipse { bottom: 45%; left: 30%; }
+
+@media (max-width: 576px) { #bootstrap-overrides .border { display: contents; }
+  #bootstrap-overrides .gallery__row { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+  #bootstrap-overrides .main--roller { display: none; }
+  #bootstrap-overrides .footer__text { text-align: center !important; } }

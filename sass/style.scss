@@ -34,7 +34,8 @@
     padding: 5rem 1rem;
 }
 fieldset > legend {
-    width: 40%;
+    // width: 40%;
+    width: auto;
 }
 .header--spacing {
     letter-spacing: 0.2rem;
@@ -85,4 +86,20 @@ fieldset > legend {
 .footer__ellipse {
     bottom: 45%;
     left: 30%;
+}
+@media (max-width: 576px) {
+    #bootstrap-overrides {
+        .border {
+            display: contents;
+        }
+        .gallery__row {
+            flex-wrap: wrap;
+        }
+        .main--roller {
+            display: none;
+        }
+        .footer__text {
+            text-align: center!important;
+        }
+    }
 }
