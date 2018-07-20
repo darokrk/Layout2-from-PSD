@@ -34,7 +34,6 @@
     padding: 5rem 1rem;
 }
 fieldset > legend {
-    // width: 40%;
     width: auto;
 }
 .header--spacing {
@@ -100,6 +99,9 @@ fieldset > legend {
         }
         .footer__text {
             text-align: center!important;
+        }
+        fieldset > legend {
+            width: unset;
         }
     }
 }
