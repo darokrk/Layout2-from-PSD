@@ -50,6 +50,16 @@ fieldset > legend {
 }
 .gallery__item {
     min-height: 240px;
+    box-shadow: 0 10px 6px -6px #777;
+    .layer {
+        width: 100%;
+        height: 240px;
+        transition: 0.3s;
+        &:hover {
+            background: rgba(0, 0, 0, 0.7);
+            cursor: pointer;
+        }
+    }
 }
 .gallery__first {
     background: url('../images/gallery-1.jpg') no-repeat center;
@@ -100,6 +110,9 @@ fieldset > legend {
         }
         fieldset > legend {
             margin: auto;
+        }
+        .layer {
+            background: transparent;
         }
     }
 }
