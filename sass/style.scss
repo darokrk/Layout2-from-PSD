@@ -45,6 +45,7 @@ fieldset > legend {
 #services {
     background: url('../images/service.jpg') no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 448px;
 }
 .gallery__item {

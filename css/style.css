@@ -20,7 +20,7 @@ fieldset > legend { width: auto; }
 
 .projects__text--interline { line-height: 1.8rem; }
 
-#services { background: url("../images/service.jpg") no-repeat center; background-size: cover; min-height: 448px; }
+#services { background: url("../images/service.jpg") no-repeat center; background-size: cover; background-attachment: fixed; min-height: 448px; }
 
 .gallery__item { min-height: 240px; }
 
