@@ -2,25 +2,31 @@
 
 #bootstrap-overrides .header--position { position: absolute; left: 5%; bottom: 15%; }
 
+.section__title { font-size: 1.9rem; }
+
+@media (max-width: 1200px) { .section__title { font-size: calc(1.315rem + 0.78vw) ; } }
+
+.section__subtitle { font-size: 1.5rem; }
+
+@media (max-width: 1200px) { .section__subtitle { font-size: calc(1.275rem + 0.3vw) ; } }
+
+.button__text { font-size: 1.2rem; }
+
 .jumbotron-fluid { background: url("../images/header.jpg") no-repeat center; background-size: cover; height: 100vh; position: relative; }
 
-.main__slogan { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.main__slogan { max-width: 555px; width: 80%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 
-.main__header { letter-spacing: 0.2em; margin-bottom: 1rem; }
+.main__header { font-size: 2.5rem; letter-spacing: 0.2em; }
 
-.ellipse { margin-bottom: 4.0em; }
+@media (max-width: 1200px) { .main__header { font-size: calc(1.375rem + 1.5vw) ; } }
 
 .main--roller { position: absolute; bottom: 5%; left: 49%; }
-
-.content--padding { padding: 5rem 1rem; }
 
 fieldset > legend { width: auto; }
 
 .header--spacing { letter-spacing: 0.2rem; }
 
-.projects__text--interline { line-height: 1.8rem; }
-
-#services { background: url("../images/service.jpg") no-repeat center; background-size: cover; background-attachment: fixed; min-height: 448px; }
+.services { background: url("../images/service.jpg") no-repeat center; background-size: cover; background-attachment: fixed; min-height: 448px; }
 
 .gallery__item { min-height: 240px; box-shadow: 0 10px 6px -6px #777; }
 
@@ -44,7 +50,7 @@ fieldset > legend { width: auto; }
 
 .footer__ellipse { bottom: 45%; left: 30%; }
 
-@media (max-width: 576px) { #bootstrap-overrides .border { border: hidden !important; }
+@media (max-width: 731px) { #bootstrap-overrides { font-size: 14px; }
   #bootstrap-overrides .gallery__row { -ms-flex-wrap: wrap; flex-wrap: wrap; }
   #bootstrap-overrides .main--roller { display: none; }
   #bootstrap-overrides .footer__text { text-align: center !important; }
