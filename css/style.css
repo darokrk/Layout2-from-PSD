@@ -56,3 +56,6 @@ fieldset > legend { width: auto; }
   #bootstrap-overrides .footer__text { text-align: center !important; }
   #bootstrap-overrides fieldset > legend { margin: auto; }
   #bootstrap-overrides .layer { background: transparent; } }
+
+@media (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { .main__slogan { width: 60%; }
+  .main--roller { display: none; } }

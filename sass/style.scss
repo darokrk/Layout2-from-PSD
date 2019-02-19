@@ -147,3 +147,15 @@ fieldset>legend {
     }
   }
 }
+
+// Iphone X,8,8plus
+
+@media (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .main__slogan {
+    width: 60%;
+  }
+
+  .main--roller {
+    display: none;
+  }
+}
